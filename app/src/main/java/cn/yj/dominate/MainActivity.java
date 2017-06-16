@@ -11,27 +11,37 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ListView;
 
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+
+import java.util.ArrayList;
 import java.util.List;
 
 import cn.yj.dominate.adapter.MainAdapter;
+import cn.yj.dominate.eventBusModel.DataChangeMessage;
+import cn.yj.dominate.model.PkgAppsModel;
 
 public class MainActivity extends AppCompatActivity {
 
 
     private ListView lv;
     private Toolbar toolbar;
+    private MainAdapter mainAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        EventBus.getDefault().register(this);
+
         PackageManager packageManager = getPackageManager();
         final List<PackageInfo> pkgAppsList = packageManager.getInstalledPackages(0);
 
 
         lv = (ListView) findViewById(R.id.lv);
-        lv.setAdapter(new MainAdapter(this, packageManager, pkgAppsList));
+        mainAdapter = new MainAdapter(this, packageManager, new PkgAppsModel((ArrayList<PackageInfo>) pkgAppsList));
+        lv.setAdapter(mainAdapter);
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         configureToolbar();
@@ -67,4 +77,16 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        EventBus.getDefault().unregister(this);
+    }
+
+
+    @Subscribe
+    public void dataChange(DataChangeMessage message) {
+        mainAdapter.setShowSystemApp(message.isShowSystemData());
+        mainAdapter.notifyDataSetChanged();
+    }
 }

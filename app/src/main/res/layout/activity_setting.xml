@@ -9,4 +9,27 @@
         android:layout_height="wrap_content"
         android:id="@+id/toolbar"/>
 
+
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="50dp">
+
+       <TextView
+           android:layout_marginLeft="10dp"
+           android:layout_centerVertical="true"
+           android:text="显示系统级别的APP"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+
+       <com.suke.widget.SwitchButton
+           android:layout_centerVertical="true"
+           android:layout_marginRight="10dp"
+           android:layout_alignParentRight="true"
+           android:id="@+id/sb_system_show"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+   </RelativeLayout>
+
+
 </LinearLayout>

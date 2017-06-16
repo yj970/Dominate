@@ -3,6 +3,7 @@ package cn.yj.dominate.adapter;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.graphics.drawable.Drawable;
@@ -17,9 +18,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.HashMap;
-import java.util.List;
 
 import cn.yj.dominate.R;
+import cn.yj.dominate.model.PkgAppsModel;
 
 /**
  * Created by yangjie on 2017/6/16.
@@ -31,9 +32,12 @@ public class MainAdapter extends BaseAdapter{
     // app图标缓存
     private HashMap<Integer, Drawable> iconCache = new HashMap<Integer, Drawable>();
 
-    private List<PackageInfo>  pkgAppsList;
+    private PkgAppsModel pkgAppsModel;
+    private PkgAppsModel  sourcePkgAppsModel;
     private Context context;
     private PackageManager packageManager;
+
+    private boolean isShowSystemApp = false;
 
 
     private Handler handler = new Handler(){
@@ -42,20 +46,22 @@ public class MainAdapter extends BaseAdapter{
             super.handleMessage(msg);
         }
     };
-    public MainAdapter(Context context, PackageManager packageManager, List<PackageInfo> pkgAppsList) {
-        this.pkgAppsList = pkgAppsList;
+    public MainAdapter(Context context, PackageManager packageManager, PkgAppsModel pkgAppsModel) {
+        this.sourcePkgAppsModel = pkgAppsModel;
         this.context = context;
         this.packageManager = packageManager;
+        this.pkgAppsModel = sourcePkgAppsModel.clone();
+        setShowSystemApp(isShowSystemApp);
     }
 
     @Override
     public int getCount() {
-        return pkgAppsList == null ? 0 : pkgAppsList.size();
+        return pkgAppsModel == null ? 0 : pkgAppsModel.getPkgAppsList().size();
     }
 
     @Override
     public Object getItem(int position) {
-        return pkgAppsList.get(position);
+        return pkgAppsModel.getPkgAppsList().get(position);
     }
 
     @Override
@@ -93,7 +99,7 @@ public class MainAdapter extends BaseAdapter{
         }
 
         // app包名
-        holder.tvPackageName.setText(pkgAppsList.get(position).packageName);
+        holder.tvPackageName.setText(pkgAppsModel.getPkgAppsList().get(position).packageName);
 
         // 点击启动APP
         holder.btnLauncher.setOnClickListener(new View.OnClickListener() {
@@ -101,7 +107,7 @@ public class MainAdapter extends BaseAdapter{
             public void onClick(View v) {
                 // 通过包名唤醒APP
                 if (context != null) {
-                    Intent LaunchIntent = packageManager.getLaunchIntentForPackage(pkgAppsList.get(position).packageName);
+                    Intent LaunchIntent = packageManager.getLaunchIntentForPackage(pkgAppsModel.getPkgAppsList().get(position).packageName);
                     context.startActivity(LaunchIntent);
                 }
             }
@@ -129,7 +135,7 @@ public class MainAdapter extends BaseAdapter{
             @Override
             public void run() {
 
-                final String name = (String) pkgAppsList.get(position).applicationInfo.loadLabel(packageManager);
+                final String name = (String) pkgAppsModel.getPkgAppsList().get(position).applicationInfo.loadLabel(packageManager);
 
                 // 因为view.post()不能保证100%执行runnable方法体，因此使用下面的这种方式
                 context.runOnUiThread(new Runnable() {
@@ -155,7 +161,7 @@ public class MainAdapter extends BaseAdapter{
         new Thread(new Runnable() {
             @Override
             public void run() {
-                final Drawable drawable =  pkgAppsList.get(position).applicationInfo.loadIcon(packageManager);
+                final Drawable drawable =  pkgAppsModel.getPkgAppsList().get(position).applicationInfo.loadIcon(packageManager);
 
                 context.runOnUiThread(new Runnable() {
                     @Override
@@ -168,6 +174,34 @@ public class MainAdapter extends BaseAdapter{
                 });
             }
         }).start();
+    }
+
+
+    /**
+     * 设置是否显示系统级别的APP
+     * @param show
+     */
+    public void setShowSystemApp(boolean show) {
+        isShowSystemApp = show;
+        if (!show) {
+            pkgAppsModel.getPkgAppsList().clear();
+            for (PackageInfo packageInfo : sourcePkgAppsModel.getPkgAppsList()){
+                //判断是否为非系统预装的应用程序, 若不是则添加到列表
+                boolean flag = false;
+                if ((packageInfo.applicationInfo.flags & ApplicationInfo.FLAG_UPDATED_SYSTEM_APP) != 0) {
+                    // Updated system app
+                    flag = true;
+                } else if ((packageInfo.applicationInfo.flags & ApplicationInfo.FLAG_SYSTEM) == 0) {
+                    // Non-system app
+                    flag = true;
+                }
+                if (flag) {
+                    pkgAppsModel.getPkgAppsList().add(packageInfo);
+                }
+            }
+        } else {
+            pkgAppsModel = sourcePkgAppsModel.clone();
+        }
     }
 }
 
