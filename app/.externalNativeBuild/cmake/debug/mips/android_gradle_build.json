@@ -1,0 +1,41 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/yangjie/AndroidStudioProjects/fggp6.5/Dominate/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/yangjie/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/yangjie/AndroidStudioProjects/fggp6.5/Dominate/app/.externalNativeBuild/cmake/debug/mips --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/yangjie/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/yangjie/AndroidStudioProjects/fggp6.5/Dominate/app/.externalNativeBuild/cmake/debug/mips --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=mipsel-none-linux-android --gcc-toolchain=/Users/yangjie/Library/Android/sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/yangjie/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips  -Dnative_lib_EXPORTS -isystem /Users/yangjie/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/yangjie/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips/include -isystem /Users/yangjie/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/yangjie/AndroidStudioProjects/fggp6.5/Dominate/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/yangjie/AndroidStudioProjects/fggp6.5/Dominate/app/.externalNativeBuild/cmake/debug/mips"
+				}
+			],
+			"output" : "/Users/yangjie/AndroidStudioProjects/fggp6.5/Dominate/app/build/intermediates/cmake/debug/obj/mips/libnative-lib.so",
+			"toolchain" : "14957946836110781983"
+		}
+	},
+	"toolchains" : 
+	{
+		"14957946836110781983" : 
+		{
+			"cCompilerExecutable" : "/Users/yangjie/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/yangjie/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
