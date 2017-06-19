@@ -7,8 +7,6 @@ import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.graphics.drawable.Drawable;
-import android.os.Handler;
-import android.os.Message;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -37,16 +35,8 @@ public class MainAdapter extends BaseAdapter{
     private Context context;
     private PackageManager packageManager;
 
-    private boolean isShowSystemApp = false;
 
-
-    private Handler handler = new Handler(){
-        @Override
-        public void handleMessage(Message msg) {
-            super.handleMessage(msg);
-        }
-    };
-    public MainAdapter(Context context, PackageManager packageManager, PkgAppsModel pkgAppsModel) {
+    public MainAdapter(Context context, PackageManager packageManager, PkgAppsModel pkgAppsModel, boolean isShowSystemApp) {
         this.sourcePkgAppsModel = pkgAppsModel;
         this.context = context;
         this.packageManager = packageManager;
@@ -182,7 +172,6 @@ public class MainAdapter extends BaseAdapter{
      * @param show
      */
     public void setShowSystemApp(boolean show) {
-        isShowSystemApp = show;
         if (!show) {
             pkgAppsModel.getPkgAppsList().clear();
             for (PackageInfo packageInfo : sourcePkgAppsModel.getPkgAppsList()){

@@ -7,17 +7,48 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CUSTOM_FILTER" value="runt" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a01aa5b4-3e5d-4740-a260-14ec92680672" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/eventBusModel/DataChangeMessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/Application.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/config/configuration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/dataBase/DBHelper.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_25_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_25_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/espresso_core_2_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/espresso_idling_resource_2_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/eventbus_3_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/exposed_instrumentation_api_publish_0_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_integration_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_library_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/javawriter_2_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/javax_annotation_api_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/javax_inject_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/jsr305_2_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/picasso_2_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/rules_0_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/runner_0_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_25_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_compat_25_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_25_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/switch_button_0_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/generated/mockable-android-25.jar" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/activity/MainActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/SettingActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/activity/SettingActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/.ninja_deps" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/.ninja_deps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/.ninja_deps" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/.ninja_deps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" />
@@ -34,23 +65,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/feature_tests.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/feature_tests.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips64/.ninja_deps" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips64/.ninja_deps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/feature_tests.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/feature_tests.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/.ninja_deps" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/.ninja_deps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/feature_tests.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/feature_tests.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86_64/.ninja_deps" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86_64/.ninja_deps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/feature_tests.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/feature_tests.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/feature_tests.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/feature_tests.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.bin" />
@@ -60,154 +80,94 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/feature_tests.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/feature_tests.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips64/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips64/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips64/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips64/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips64/CMakeFiles/feature_tests.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips64/CMakeFiles/feature_tests.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/feature_tests.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/feature_tests.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/feature_tests.bin" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/feature_tests.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/.ninja_log" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/.ninja_log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeCache.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeCache.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/CMakeOutput.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/TargetDirectories.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/android_gradle_build.json" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/android_gradle_build.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/build.ninja" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/build.ninja" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/cmake_build_command.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/cmake_build_command.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/cmake_build_output.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/cmake_build_output.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/cmake_install.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/cmake_install.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/rules.ninja" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/rules.ninja" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/.ninja_log" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/.ninja_log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeCache.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeCache.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeOutput.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/TargetDirectories.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/android_gradle_build.json" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/android_gradle_build.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/build.ninja" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/build.ninja" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/cmake_build_command.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/cmake_build_command.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/cmake_build_output.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/cmake_build_output.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/cmake_install.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/cmake_install.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/rules.ninja" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi-v7a/rules.ninja" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi/.ninja_log" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi/.ninja_log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi/CMakeCache.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi/CMakeCache.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/CMakeOutput.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/TargetDirectories.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi/android_gradle_build.json" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi/android_gradle_build.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi/build.ninja" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi/build.ninja" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi/cmake_build_command.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi/cmake_build_command.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi/cmake_build_output.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi/cmake_build_output.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi/cmake_install.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi/cmake_install.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi/rules.ninja" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/armeabi/rules.ninja" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips/.ninja_log" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips/.ninja_log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips/CMakeCache.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips/CMakeCache.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeOutput.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/TargetDirectories.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips/android_gradle_build.json" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips/android_gradle_build.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips/build.ninja" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips/build.ninja" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips/cmake_build_command.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips/cmake_build_command.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips/cmake_build_output.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips/cmake_build_output.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips/cmake_install.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips/cmake_install.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips/rules.ninja" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips/rules.ninja" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips64/.ninja_log" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips64/.ninja_log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips64/CMakeCache.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips64/CMakeCache.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/CMakeOutput.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/TargetDirectories.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips64/android_gradle_build.json" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips64/android_gradle_build.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips64/build.ninja" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips64/build.ninja" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips64/cmake_build_command.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips64/cmake_build_command.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips64/cmake_build_output.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips64/cmake_build_output.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips64/cmake_install.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips64/cmake_install.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips64/rules.ninja" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/mips64/rules.ninja" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/.ninja_log" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/.ninja_log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeCache.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeCache.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeOutput.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/TargetDirectories.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/android_gradle_build.json" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/android_gradle_build.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/build.ninja" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/build.ninja" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/cmake_build_command.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/cmake_build_command.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/cmake_build_output.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/cmake_build_output.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/cmake_install.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/cmake_install.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/rules.ninja" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/rules.ninja" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86_64/.ninja_log" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86_64/.ninja_log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86_64/CMakeCache.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86_64/CMakeCache.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeOutput.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/TargetDirectories.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86_64/android_gradle_build.json" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86_64/android_gradle_build.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86_64/build.ninja" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86_64/build.ninja" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86_64/cmake_build_command.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86_64/cmake_build_command.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86_64/cmake_build_output.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86_64/cmake_build_output.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86_64/cmake_install.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86_64/cmake_install.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86_64/rules.ninja" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86_64/rules.ninja" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeCache.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeCache.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeOutput.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/TargetDirectories.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/arm64-v8a/android_gradle_build.json" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/arm64-v8a/android_gradle_build.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/arm64-v8a/build.ninja" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/arm64-v8a/build.ninja" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/arm64-v8a/cmake_build_command.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/arm64-v8a/cmake_build_command.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/arm64-v8a/cmake_build_output.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/arm64-v8a/cmake_build_output.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/arm64-v8a/cmake_install.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/arm64-v8a/cmake_install.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/arm64-v8a/rules.ninja" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/arm64-v8a/rules.ninja" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeCache.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeCache.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeOutput.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/TargetDirectories.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/android_gradle_build.json" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/android_gradle_build.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/build.ninja" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/build.ninja" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_build_command.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_build_command.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_build_output.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_build_output.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_install.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_install.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/rules.ninja" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi-v7a/rules.ninja" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi/CMakeCache.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi/CMakeCache.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeOutput.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/TargetDirectories.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi/android_gradle_build.json" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi/android_gradle_build.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi/build.ninja" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi/build.ninja" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi/cmake_build_command.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi/cmake_build_command.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi/cmake_build_output.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi/cmake_build_output.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi/cmake_install.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi/cmake_install.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi/rules.ninja" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/armeabi/rules.ninja" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips/CMakeCache.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips/CMakeCache.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/CMakeOutput.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/TargetDirectories.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips/android_gradle_build.json" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips/android_gradle_build.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips/build.ninja" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips/build.ninja" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips/cmake_build_command.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips/cmake_build_command.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips/cmake_build_output.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips/cmake_build_output.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips/cmake_install.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips/cmake_install.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips/rules.ninja" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips/rules.ninja" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips64/CMakeCache.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips64/CMakeCache.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips64/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips64/CMakeFiles/CMakeOutput.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips64/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips64/CMakeFiles/TargetDirectories.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips64/android_gradle_build.json" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips64/android_gradle_build.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips64/build.ninja" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips64/build.ninja" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips64/cmake_build_command.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips64/cmake_build_command.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips64/cmake_build_output.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips64/cmake_build_output.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips64/cmake_install.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips64/cmake_install.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips64/rules.ninja" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/mips64/rules.ninja" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86/CMakeCache.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86/CMakeCache.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeOutput.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/TargetDirectories.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86/android_gradle_build.json" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86/android_gradle_build.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86/build.ninja" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86/build.ninja" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86/cmake_build_command.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86/cmake_build_command.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86/cmake_build_output.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86/cmake_build_output.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86/cmake_install.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86/cmake_install.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86/rules.ninja" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86/rules.ninja" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86_64/CMakeCache.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86_64/CMakeCache.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeOutput.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/TargetDirectories.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86_64/android_gradle_build.json" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86_64/android_gradle_build.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86_64/build.ninja" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86_64/build.ninja" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86_64/cmake_build_command.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86_64/cmake_build_command.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86_64/cmake_build_output.txt" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86_64/cmake_build_output.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86_64/cmake_install.cmake" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86_64/cmake_install.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86_64/rules.ninja" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/release/x86_64/rules.ninja" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/SettingActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/SettingActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/adapter/MainAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/adapter/MainAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_setting.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_setting.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="Dominate.iws" />
@@ -241,94 +201,115 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/MainActivity.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="88" column="27" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainAdapter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/adapter/MainAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="193" column="61" selection-start-line="193" selection-start-column="61" selection-end-line="193" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicationInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-25/android/content/pm/ApplicationInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="130" column="39" selection-start-line="130" selection-start-column="28" selection-end-line="130" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PkgAppsModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/model/PkgAppsModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SettingActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/SettingActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="73" column="57" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataChangeMessage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/eventBusModel/DataChangeMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="e#308#309#0" expanded="false" />
-                <element signature="e#347#348#0" expanded="false" />
-                <element signature="e#408#409#0" expanded="false" />
-                <element signature="e#457#458#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_setting.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_setting.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="36" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="36" />
+            <state relative-caret-position="465">
+              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/dataBase/DBHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <element signature="e#674#675#0" expanded="true" />
+                <element signature="e#734#735#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RealmDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/dataBase/dao/RealmDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/dataBase/dao/ConfigDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigModel.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/model/ConfigModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/activity/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+              <folding>
+                <element signature="e#1115#1116#0" expanded="true" />
+                <element signature="e#1168#1169#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/activity/BaseActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -376,6 +357,10 @@
           <value>
             <list>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformClassesWithRealmTransformerForDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the sub-projects of root project 'Dominate'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
@@ -391,6 +376,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareDebugDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformClassesWithRealmTransformerForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -418,6 +407,11 @@
                 <option name="description" value="Creates a version of android.jar that's suitable for unit tests." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mockableAndroidJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-v4:24.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportV42410Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the tasks runnable from root project 'Dominate' (some of the displayed tasks may belong to subprojects)." />
@@ -517,16 +511,6 @@
                 <option name="name" value="compileReleaseRenderscript" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:animated-vector-drawable:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-v4:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportV42510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Assembles all Debug builds." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="assembleDebug" />
@@ -606,6 +590,11 @@
                 <option name="name" value="mergeReleaseJniLibFolders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.getkeepsafe.relinker:relinker:1.2.2" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComGetkeepsafeRelinkerRelinker122Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareReleaseDependencies" />
               </ExternalTaskPojo>
@@ -621,11 +610,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeDebugAndroidTestAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-fragment:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportFragment2510Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -657,6 +641,11 @@
                 <option name="description" value="Assembles all variants of all applications and secondary packages." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare io.realm:realm-android-library:2.0.2" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareIoRealmRealmAndroidLibrary202Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -697,6 +686,11 @@
                 <option name="description" value="Installs and runs the tests for debug on connected devices." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="connectedDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-vector-drawable:24.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2410Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Uninstall all applications." />
@@ -752,16 +746,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeReleaseShaders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:appcompat-v7:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportAppcompatV72510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-core-ui:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportCoreUi2510Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the Android dependencies of the project." />
@@ -870,6 +854,10 @@
                 <option name="name" value="transformClassesWithDexForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformClassesWithRealmTransformerForDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs the Debug build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="installDebug" />
@@ -935,6 +923,11 @@
                 <option name="name" value="checkDebugManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:appcompat-v7:24.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportAppcompatV72410Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeDebugJniLibFolders" />
               </ExternalTaskPojo>
@@ -950,11 +943,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeReleaseAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-core-utils:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2510Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -978,16 +966,6 @@
                 <option name="name" value="externalNativeBuildDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-vector-drawable:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-compat:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportCompat2510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="transformNative_libsWithStripDebugSymbolForDebug" />
               </ExternalTaskPojo>
@@ -1004,6 +982,11 @@
                 <option name="description" value="Uninstalls the Debug build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="uninstallDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:animated-vector-drawable:24.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2410Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the signing info for each variant." />
@@ -1025,11 +1008,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-media-compat:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2510Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1090,6 +1068,10 @@
           <value>
             <list>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="transformClassesWithRealmTransformerForDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the sub-projects of project ':app'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="projects" />
@@ -1105,6 +1087,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="prepareDebugDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="transformClassesWithRealmTransformerForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -1132,6 +1118,11 @@
                 <option name="description" value="Displays the configuration model of project ':app'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-v4:24.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportSupportV42410Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the tasks runnable from project ':app'." />
@@ -1226,16 +1217,6 @@
                 <option name="name" value="compileReleaseRenderscript" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:animated-vector-drawable:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-v4:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportSupportV42510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Assembles all Debug builds." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="assembleDebug" />
@@ -1315,6 +1296,11 @@
                 <option name="name" value="mergeReleaseJniLibFolders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.getkeepsafe.relinker:relinker:1.2.2" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComGetkeepsafeRelinkerRelinker122Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="prepareReleaseDependencies" />
               </ExternalTaskPojo>
@@ -1330,11 +1316,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="mergeDebugAndroidTestAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-fragment:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportSupportFragment2510Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -1366,6 +1347,11 @@
                 <option name="description" value="Assembles all variants of all applications and secondary packages." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare io.realm:realm-android-library:2.0.2" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareIoRealmRealmAndroidLibrary202Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -1406,6 +1392,11 @@
                 <option name="description" value="Installs and runs the tests for debug on connected devices." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="connectedDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-vector-drawable:24.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2410Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Uninstall all applications." />
@@ -1456,16 +1447,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="mergeReleaseShaders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:appcompat-v7:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportAppcompatV72510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-core-ui:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportSupportCoreUi2510Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the Android dependencies of the project." />
@@ -1574,6 +1555,10 @@
                 <option name="name" value="transformClassesWithDexForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="transformClassesWithRealmTransformerForDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs the Debug build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="installDebug" />
@@ -1639,6 +1624,11 @@
                 <option name="name" value="checkDebugManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:appcompat-v7:24.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportAppcompatV72410Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="mergeDebugJniLibFolders" />
               </ExternalTaskPojo>
@@ -1654,11 +1644,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="mergeReleaseAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-core-utils:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2510Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -1682,16 +1667,6 @@
                 <option name="name" value="externalNativeBuildDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-vector-drawable:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-compat:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportSupportCompat2510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="transformNative_libsWithStripDebugSymbolForDebug" />
               </ExternalTaskPojo>
@@ -1708,6 +1683,11 @@
                 <option name="description" value="Uninstalls the Debug build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="uninstallDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:animated-vector-drawable:24.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2410Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the signing info for each variant." />
@@ -1730,11 +1710,6 @@
                 <option name="description" value="Deletes the build directory." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-media-compat:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2510Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -1795,7 +1770,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4492776640000" />
+        <entry key="$PROJECT_DIR$" value="4493326949000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1811,7 +1786,11 @@
                         <option name="entries">
                           <list>
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.2.2/gradle-2.2.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-gradle-plugin/2.0.2/b9e96d09d3f8e0b6ce80f96c63618a693e683c64/realm-gradle-plugin-2.0.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.neenbedankt.gradle.plugins/android-apt/1.8/24d19fcf131d31823ff604a542dd0655c4feec86/android-apt-1.8-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.neenbedankt.gradle.plugins/android-apt/1.8/d3c508f0ea2b2bb93c2816a83351090dd662eaac/android-apt-1.8.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.2.2/gradle-core-2.2.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-transformer/2.0.2/17e3898b0b1da5dad75c339f674ed936985ffac6/realm-transformer-2.0.2.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.2.2/builder-2.2.2.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.2.2/lint-25.2.2.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.jar" />
@@ -1825,6 +1804,9 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.report/0.7.5.201505241946/org.jacoco.report-0.7.5.201505241946.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-annotations/2.0.2/e97f64258ef6d0daeb26b3b88988215e0b14d9b2/realm-annotations-2.0.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.20.0-GA/d8fdc08a455bc0b28bc0bed1f0d032d935cee8e1/javassist-3.20.0-GA-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.20.0-GA/a9cbcdfb7e9f86fbc74d3afae65f2248bfbf82a0/javassist-3.20.0-GA.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.2.2/builder-model-2.2.2.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.2.2/builder-test-api-2.2.2.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.2.2/sdklib-25.2.2.jar" />
@@ -1896,7 +1878,11 @@
                         <option name="entries">
                           <list>
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.2.2/gradle-2.2.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-gradle-plugin/2.0.2/b9e96d09d3f8e0b6ce80f96c63618a693e683c64/realm-gradle-plugin-2.0.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.neenbedankt.gradle.plugins/android-apt/1.8/24d19fcf131d31823ff604a542dd0655c4feec86/android-apt-1.8-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.neenbedankt.gradle.plugins/android-apt/1.8/d3c508f0ea2b2bb93c2816a83351090dd662eaac/android-apt-1.8.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.2.2/gradle-core-2.2.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-transformer/2.0.2/17e3898b0b1da5dad75c339f674ed936985ffac6/realm-transformer-2.0.2.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.2.2/builder-2.2.2.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.2.2/lint-25.2.2.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.jar" />
@@ -1910,6 +1896,9 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.report/0.7.5.201505241946/org.jacoco.report-0.7.5.201505241946.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-annotations/2.0.2/e97f64258ef6d0daeb26b3b88988215e0b14d9b2/realm-annotations-2.0.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.20.0-GA/d8fdc08a455bc0b28bc0bed1f0d032d935cee8e1/javassist-3.20.0-GA-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.20.0-GA/a9cbcdfb7e9f86fbc74d3afae65f2248bfbf82a0/javassist-3.20.0-GA.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.2.2/builder-model-2.2.2.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.2.2/builder-test-api-2.2.2.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.2.2/sdklib-25.2.2.jar" />
@@ -2124,19 +2113,33 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_setting.xml" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/eventBusModel/DataChangeMessage.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/model/PkgAppsModel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/SettingActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/dataBase/DataBaseHelper.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/config/configuration.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/config/Configuration.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/dataBase/1111.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/dataBase/dao/RealmDao.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/adapter/MainAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/dataBase/DBHelper.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/Application.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/dataBase/dao/ConfigDao.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/activity/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/activity/SettingActivity.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/activity/BaseActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/model/ConfigModel.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="761" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -2145,7 +2148,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -2163,7 +2166,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2236,206 +2243,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dominate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dominate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dominate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dominate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dominate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dominate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dominate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dominate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dominate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dominate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dominate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eventBusModel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dominate" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="android.project.structure.last.selected" value="app" />
+    <property name="android.project.structure.last.selected" value="Project" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
-    <property name="device.picker.selection" value="C4F12EE8D2E962F" />
+    <property name="device.picker.selection" value="cc968b5c" />
     <property name="DEBUGGABLE_DEVICE" value="samsung-gt_p7510-C4F12EE8D2E962F" />
     <property name="DEBUGGABLE_PROCESS" value="cn.yj.dominate" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="DEBUGGER_ID" value="Auto" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="SearchEverywhereHistoryKey" value="ConfigModel&#9;FILE&#9;file:///Users/yangjie/GitHub/Dominate/app/src/main/java/cn/yj/dominate/model/ConfigModel.java" />
   </component>
   <component name="RunManager" selected="Android App.app">
-    <configuration default="true" type="AndroidNativeAttachConfigurationType" factoryName="Android Native Attach">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="do_nothing" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Auto" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <Auto>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-      </Auto>
-      <Hybrid>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-      </Hybrid>
-      <Java />
-      <Native>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-      </Native>
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -2554,6 +2383,15 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -2729,6 +2567,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a01aa5b4-3e5d-4740-a260-14ec92680672" name="Default" comment="" />
@@ -2739,33 +2580,42 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="761" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.77807134" sideWeight="0.49427754" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.062015504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4729194" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31968296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.77807134" sideWeight="0.50572246" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2776,6 +2626,48 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.062015504" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.011889036" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -2784,49 +2676,63 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/MainActivity.java</url>
-          <line>88</line>
+          <url>file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/activity/MainActivity.java</url>
+          <line>54</line>
           <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/activity/MainActivity.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="86" column="44" selection-start-line="86" selection-start-column="27" selection-end-line="86" selection-end-column="44" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="88" column="27" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/adapter/MainAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2295">
-          <caret line="179" column="21" selection-start-line="179" selection-start-column="21" selection-end-line="179" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="2640">
+          <caret line="202" column="54" selection-start-line="202" selection-start-column="54" selection-end-line="202" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-25/android/content/pm/ApplicationInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="130" column="39" selection-start-line="130" selection-start-column="28" selection-end-line="130" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/model/PkgAppsModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/SettingActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/activity/SettingActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="900">
+          <caret line="73" column="57" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -2834,12 +2740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#308#309#0" expanded="false" />
-            <element signature="e#347#348#0" expanded="false" />
-            <element signature="e#408#409#0" expanded="false" />
-            <element signature="e#457#458#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2850,7 +2750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="36" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2862,19 +2761,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/activity/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="1020">
+          <caret line="86" column="44" selection-start-line="86" selection-start-column="27" selection-end-line="86" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/adapter/MainAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="2295">
+          <caret line="179" column="21" selection-start-line="179" selection-start-column="21" selection-end-line="179" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -2882,19 +2779,66 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/SettingActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/activity/SettingActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/eventBusModel/DataChangeMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_setting.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/adapter/MainAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/model/PkgAppsModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/activity/SettingActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2905,7 +2849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2917,14 +2860,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_setting.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -2932,7 +2867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="36" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2940,56 +2874,231 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#308#309#0" expanded="false" />
-            <element signature="e#347#348#0" expanded="false" />
-            <element signature="e#408#409#0" expanded="false" />
-            <element signature="e#457#458#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="88" column="27" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/SettingActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="73" column="57" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/model/PkgAppsModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="140">
           <caret line="11" column="21" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-25/android/content/pm/ApplicationInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
+        <state relative-caret-position="1470">
           <caret line="130" column="39" selection-start-line="130" selection-start-column="28" selection-end-line="130" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-gradle-plugin/3.3.1/dc5d03fb8d8bfeab0c1c8b68772edfcc507fc474/realm-gradle-plugin-3.3.1.jar!/io/realm/gradle/Realm.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-android-library/3.3.1/bcc6a620ca86008b3fbd123e8e1ab7e187b4b7ac/realm-android-library-3.3.1-sources.jar!/io/realm/RealmCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="286" column="49" selection-start-line="286" selection-start-column="49" selection-end-line="286" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/dataBase/DBHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-android-library/3.3.1/bcc6a620ca86008b3fbd123e8e1ab7e187b4b7ac/realm-android-library-3.3.1-sources.jar!/io/realm/Realm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="268" column="24" selection-start-line="268" selection-start-column="24" selection-end-line="268" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/config/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-android-library/3.3.1/bcc6a620ca86008b3fbd123e8e1ab7e187b4b7ac/realm-android-library-3.3.1-sources.jar!/io/realm/RealmModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-android-library/2.2.1/17a4a89255a44c8dfbdbd92be9b5ba9643b5900d/realm-android-library-2.2.1-sources.jar!/io/realm/Realm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17265">
+          <caret line="1212" column="30" selection-start-line="1212" selection-start-column="30" selection-end-line="1212" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-android-library/2.2.1/17a4a89255a44c8dfbdbd92be9b5ba9643b5900d/realm-android-library-2.2.1-sources.jar!/io/realm/RealmQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1515">
+          <caret line="137" column="42" selection-start-line="137" selection-start-column="42" selection-end-line="137" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-android-library/2.2.1/17a4a89255a44c8dfbdbd92be9b5ba9643b5900d/realm-android-library-2.2.1-sources.jar!/io/realm/RealmObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/activity/SettingActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/adapter/MainAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="193" column="61" selection-start-line="193" selection-start-column="61" selection-end-line="193" selection-end-column="61" />
+        <state relative-caret-position="120">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-android-library/2.2.1/17a4a89255a44c8dfbdbd92be9b5ba9643b5900d/realm-android-library-2.2.1-sources.jar!/io/realm/RealmSchema.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="326" column="0" selection-start-line="326" selection-start-column="0" selection-end-line="326" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/dataBase/dao/ConfigDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-android-library/2.0.2/f9ccbbb792dc3e9fb68fc79cb4e5c8014d3d1ef9/realm-android-library-2.0.2-sources.jar!/io/realm/Realm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="223" column="24" selection-start-line="223" selection-start-column="24" selection-end-line="223" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/dataBase/DBHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/24.1.0/appcompat-v7-24.1.0-sources.jar!/android/support/v7/app/AppCompatActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="181" column="16" selection-start-line="181" selection-start-column="16" selection-end-line="181" selection-end-column="16" />
+          <folding>
+            <element signature="e#6788#6789#0" expanded="true" />
+            <element signature="e#6841#6842#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+          <folding>
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1168#1169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/activity/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/dataBase/dao/RealmDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/yj/dominate/model/ConfigModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -3,201 +3,111 @@
 
     <item
         is-multidex="false"
-        jar="/Users/yangjie/AndroidStudioProjects/fggp6.5/Dominate/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jar="/Users/yangjie/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.0/support-annotations-24.1.0.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="/Users/yangjie/AndroidStudioProjects/fggp6.5/Dominate/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.0_256016d2ec6fa8fe3c45c95235754f95b5073695.jar" />
+        revision="24.0.2"
+        sha1="8a23146e1a8c7cb4758e3d3f62449213f1e51f67">
+        <dex dex="/Users/yangjie/GitHub/Dominate/app/build/intermediates/pre-dexed/debug/support-annotations-24.1.0_7dab1286f6b26a1b24ac7c9bba5f1818b43822c6.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/yangjie/AndroidStudioProjects/fggp6.5/Dominate/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jar="/Users/yangjie/GitHub/Dominate/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="/Users/yangjie/AndroidStudioProjects/fggp6.5/Dominate/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.0_78c856853f204ade19fd254fe4604944f7501d8a.jar" />
+        revision="24.0.2"
+        sha1="9340c4f95a4e3916c9ad70296e24576743743712">
+        <dex dex="/Users/yangjie/GitHub/Dominate/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.1.0_dd4bcead549eae93ea27f6c921a484982ccaeb27.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/yangjie/AndroidStudioProjects/fggp6.5/Dominate/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jar="/Users/yangjie/GitHub/Dominate/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="/Users/yangjie/AndroidStudioProjects/fggp6.5/Dominate/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.0_4b6029384ce3c120a72ca3839dc8ff5f218ab047.jar" />
+        revision="24.0.2"
+        sha1="ba8e8860f7e033c3a503b682337a4bafdf56e6ee">
+        <dex dex="/Users/yangjie/GitHub/Dominate/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.1.0_60f2e9fcc27750f2a569512dbdee3a6232000899.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/yangjie/GitHub/Dominate/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jar="/Users/yangjie/GitHub/Dominate/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="/Users/yangjie/GitHub/Dominate/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.0_7fcb920c3d45864515b26132cf2c4d7ba16d2bc6.jar" />
+        revision="24.0.2"
+        sha1="8c854b30eca6c442fe842e66cd3b58c5dd08996f">
+        <dex dex="/Users/yangjie/GitHub/Dominate/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.1.0_d172a4c2bfc81e6c488440b479724001f2011190.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/yangjie/GitHub/Dominate/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jar="/Users/yangjie/GitHub/Dominate/app/build/intermediates/exploded-aar/io.realm/realm-android-library/2.0.2/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="/Users/yangjie/GitHub/Dominate/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.0_eac19b271ed78866c089c0911ab49315ecfce55a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yangjie/GitHub/Dominate/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="/Users/yangjie/GitHub/Dominate/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.0_b1a439e8d68a36d92b39e6c021a48dd8c1a2b7c8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yangjie/GitHub/Dominate/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="/Users/yangjie/GitHub/Dominate/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.0_c0e1617972bb08d9798e7957c0a2b11ce4f0edd0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yangjie/AndroidStudioProjects/fggp6.5/Dominate/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/yangjie/AndroidStudioProjects/fggp6.5/Dominate/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.0_ecaa2ecbcf4505b783752e1a6b35ac890b01bb51.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yangjie/AndroidStudioProjects/fggp6.5/Dominate/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="/Users/yangjie/AndroidStudioProjects/fggp6.5/Dominate/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.0_bd7bbff0fdfdc647f31fb98c7ca7cdb96bc65d55.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yangjie/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
-        <dex dex="/Users/yangjie/GitHub/Dominate/app/build/intermediates/pre-dexed/debug/eventbus-3.0.0_c5dce5a57c6e51da6bd85b475755f0567f08ad18.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yangjie/AndroidStudioProjects/fggp6.5/Dominate/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="/Users/yangjie/AndroidStudioProjects/fggp6.5/Dominate/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.0_952fa9b3801ef7ee5cfee5a01b91b688e53f8fe0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yangjie/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/Users/yangjie/AndroidStudioProjects/fggp6.5/Dominate/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_d2a3ca8b8e1a327762f4fec747f4e1d5aab22de9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yangjie/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="/Users/yangjie/AndroidStudioProjects/fggp6.5/Dominate/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.0_fae203c6a0f63dbba0bbb9f9976c9f17e8aeb192.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yangjie/GitHub/Dominate/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/yangjie/GitHub/Dominate/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.0_c4bd3a6658988435e930e072c24004cb1e496a4d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yangjie/GitHub/Dominate/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="/Users/yangjie/GitHub/Dominate/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.0_4376b63cb215ba727f340caa929e025af858c599.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yangjie/GitHub/Dominate/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="/Users/yangjie/GitHub/Dominate/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.0_956fa0558c914d18474f243cc3f300d977597218.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yangjie/AndroidStudioProjects/fggp6.5/Dominate/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="/Users/yangjie/AndroidStudioProjects/fggp6.5/Dominate/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.0_e0fffb90c8645b884dd0c4ea7d8ffbc51dcbfc1b.jar" />
+        revision="24.0.2"
+        sha1="716030a2499afe39ca5b9c8bc09bc868ca372206">
+        <dex dex="/Users/yangjie/GitHub/Dominate/app/build/intermediates/pre-dexed/debug/io.realm-realm-android-library-2.0.2_02a9e8c6783be88c6cfa03dfe9e908c264561260.jar" />
     </item>
     <item
         is-multidex="false"
         jar="/Users/yangjie/GitHub/Dominate/app/build/intermediates/exploded-aar/com.github.zcweng/switch-button/0.0.3/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
+        revision="24.0.2"
         sha1="62e9322b0ed4fadcbd50c95741f1cd50ce5c7e12">
         <dex dex="/Users/yangjie/GitHub/Dominate/app/build/intermediates/pre-dexed/debug/com.github.zcweng-switch-button-0.0.3_b3ffc9e6f068cffb06c11bb97006790df06f52c8.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/yangjie/GitHub/Dominate/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jar="/Users/yangjie/GitHub/Dominate/app/build/intermediates/exploded-aar/com.getkeepsafe.relinker/relinker/1.2.2/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="/Users/yangjie/GitHub/Dominate/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.0_57bda0c8ae82afe048c77edda7953a1273fe3818.jar" />
+        revision="24.0.2"
+        sha1="b64dd5f01bc37de289f90fd59299b0c76d119611">
+        <dex dex="/Users/yangjie/GitHub/Dominate/app/build/intermediates/pre-dexed/debug/com.getkeepsafe.relinker-relinker-1.2.2_b11e5150135bc4c5aac29c0c026e2501804fd457.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/yangjie/GitHub/Dominate/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jar="/Users/yangjie/GitHub/Dominate/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="/Users/yangjie/GitHub/Dominate/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.0_e5ceb16e16e1c04b478083ab24739e2fc84ffcf2.jar" />
+        revision="24.0.2"
+        sha1="e096a5d8343cc9c5a9f6eded36bd0f4c82f8c83e">
+        <dex dex="/Users/yangjie/GitHub/Dominate/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.1.0_be0b88e5cae2f76bca2e46b6ed6957d48f62b151.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/yangjie/AndroidStudioProjects/fggp6.5/Dominate/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jar="/Users/yangjie/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="/Users/yangjie/AndroidStudioProjects/fggp6.5/Dominate/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.0_2d3a33d1d1a0f31394b7e3eca2fcaaeead31afaa.jar" />
+        revision="24.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/yangjie/GitHub/Dominate/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_d2a3ca8b8e1a327762f4fec747f4e1d5aab22de9.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/yangjie/AndroidStudioProjects/fggp6.5/Dominate/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jar="/Users/yangjie/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="/Users/yangjie/AndroidStudioProjects/fggp6.5/Dominate/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.0_319280c8d20d552fea0bdf12b2a054adf3c992f8.jar" />
+        revision="24.0.2"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/Users/yangjie/GitHub/Dominate/app/build/intermediates/pre-dexed/debug/eventbus-3.0.0_c5dce5a57c6e51da6bd85b475755f0567f08ad18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yangjie/GitHub/Dominate/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.0/jars/libs/internal_impl-24.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8c7087216946c546f85a1242a2794c0f271e092c">
+        <dex dex="/Users/yangjie/GitHub/Dominate/app/build/intermediates/pre-dexed/debug/internal_impl-24.1.0_2d9f913a78d38c2844d745a4d97ec5321d8abc34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yangjie/.gradle/caches/modules-2/files-2.1/io.realm/realm-annotations/2.0.2/e97f64258ef6d0daeb26b3b88988215e0b14d9b2/realm-annotations-2.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e97f64258ef6d0daeb26b3b88988215e0b14d9b2">
+        <dex dex="/Users/yangjie/GitHub/Dominate/app/build/intermediates/pre-dexed/debug/realm-annotations-2.0.2_91ff8cff572ebe98469432294f489919aaf93e9f.jar" />
     </item>
 
 </items>
