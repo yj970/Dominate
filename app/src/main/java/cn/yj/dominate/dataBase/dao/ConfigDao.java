@@ -30,7 +30,11 @@ public class ConfigDao extends RealmDao{
         realm.executeTransaction(new Realm.Transaction() {
             @Override
             public void execute(Realm realm) {
-                ConfigModel configModel = realm.createObject(ConfigModel.class);
+                ConfigModel configModel = query();
+                if (configModel == null) {
+                    configure();
+                    configModel = query();
+                }
                 configModel.setShowSystemApps(isShowSystemApps);
 
             }

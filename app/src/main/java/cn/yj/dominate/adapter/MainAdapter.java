@@ -148,6 +148,7 @@ public class MainAdapter extends BaseAdapter{
      */
     private void getIcon(final Activity context, final int position, final ImageView imageView) {
         imageView.setTag(position);
+        imageView.setImageResource(R.mipmap.icon_placeholder);
         new Thread(new Runnable() {
             @Override
             public void run() {
