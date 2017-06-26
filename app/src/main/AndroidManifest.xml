@@ -17,8 +17,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".activity.SettingActivity">
-        </activity>
+        <activity android:name=".activity.SettingActivity"/>
+        <activity android:name=".activity.HandWritingActivity"/>
     </application>
 
 </manifest>

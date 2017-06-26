@@ -1,6 +1,7 @@
 package cn.yj.dominate.activity;
 
 import android.app.Dialog;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
@@ -32,6 +33,8 @@ public class SettingActivity extends BaseActivity {
     private SwitchButton sbShowSystem;
     private ConfigDao configDao;
     private Button btnInfo;
+    private Button btnHandWriting;
+
     @Override
     protected void onCreate( Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,6 +48,7 @@ public class SettingActivity extends BaseActivity {
     public void findView() {
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         sbShowSystem = (SwitchButton) findViewById(R.id.sb_system_show);
+        btnHandWriting = (Button) findViewById(R.id.btn_hand_writing);
         btnInfo = (Button) findViewById(R.id.btn_info);
     }
 
@@ -71,6 +75,13 @@ public class SettingActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 showInfo();
+            }
+        });
+
+        btnHandWriting.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(SettingActivity.this, HandWritingActivity.class));
             }
         });
     }

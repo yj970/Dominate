@@ -40,5 +40,13 @@
         android:text="关于本机"
         android:id="@+id/btn_info"/>
 
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="手写"
+        android:id="@+id/btn_hand_writing"/>
+
 
 </LinearLayout>
